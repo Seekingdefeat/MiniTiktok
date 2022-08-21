@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">MiniTiktok</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_userdetail">User Details</string>
+    <string name="user_detail_likes">%1$s 喜欢</string>
+    <string name="user_detail_fans">%1$s 粉丝</string>
+    <string name="user_detail_following">%1$s 关注</string>
+    <string name="user_detail_douyin_id">抖音号:%1$s</string>
 </resources>
