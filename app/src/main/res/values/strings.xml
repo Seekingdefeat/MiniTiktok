@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">MiniTiktok</string>
+    <string name="update_name">本周榜 | 更新于</string>
+    <string name="douyin_yingshi">抖音影视榜</string>
+    <string name="rule1">一、榜单介绍</string>
+    <string name="movieRules">榜单规则</string>
+    <string name="rule1_direct">榜单影响力值根据影片在抖音中的相关数据，通过多维度的算法计算，综合反映了在抖音平台上的热度。</string>
+    <string name="rule2">二、榜单构成</string>
+    <string name="rule3">三、积分规则</string>
+    <string name="rule4">四、榜单说明</string>
+    <string name="rule2_direct_film">电影榜单展示抖音前30名上榜电影及其热度值，每日更新一次</string>
+    <string name="rule3_direct_film">电影榜是根据上榜影片在抖音上的热度值综合排序得出。影片的热度值由于官方账号影响力、影片讨论度、搜索指数和上映情况等数据综合计算得出。为保证榜单的公正性，榜单仅统计抖音的登录用户的贡献的相关数据，并进行反作弊查验核对。凡系统检测到有作弊行为的影片将丧失上榜资格。另外，如果官方账号在周末为发布作品，将无法获得观看、分享、评论等计算官方账号影响力的数据</string>
+    <string name="rule4_direct">抖音拥有在法律法规允许范围内修改该榜单的权利，禁止用户以非法手段恶意影响榜单数据</string>
+    <string name="rule2_direct_tv">影视榜单展示抖音前10名上榜影视及其热度值，每日更新一次</string>
+    <string name="rule3_direct_tv">影视榜是根据上榜影片在抖音上的热度值综合排序得出。影片的热度值由于官方账号影响力、影片讨论度、搜索指数和上映情况等数据综合计算得出。为保证榜单的公正性，榜单仅统计抖音的登录用户的贡献的相关数据，并进行反作弊查验核对。凡系统检测到有作弊行为的影片将丧失上榜资格。另外，如果官方账号在周末为发布作品，将无法获得观看、分享、评论等计算官方账号影响力的数据</string>
+    <string name="rule2_direct_avar">综艺榜单展示抖音前10名上榜综艺及其热度值，每日更新一次</string>
+    <string name="rule3_direct_avar">综艺榜是根据上榜影片在抖音上的热度值综合排序得出。影片的热度值由于官方账号影响力、影片讨论度、搜索指数和上映情况等数据综合计算得出。为保证榜单的公正性，榜单仅统计抖音的登录用户的贡献的相关数据，并进行反作弊查验核对。凡系统检测到有作弊行为的影片将丧失上榜资格。另外，如果官方账号在周末为发布作品，将无法获得观看、分享、评论等计算官方账号影响力的数据</string>
 </resources>

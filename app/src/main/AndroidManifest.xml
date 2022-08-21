@@ -3,8 +3,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.minitiktok.android">
 
+    <queries>
+        <!-- 允许查询抖音和抖音极速版的软件包信息 -->
+        <package android:name="com.ss.android.ugc.aweme" />
+        <package android:name="com.ss.android.ugc.aweme.lite" />
+    </queries>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
-        android:allowBackup="true"
+        android:name=".TikTokApplication"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
@@ -14,8 +25,30 @@
         android:theme="@style/AppTheme"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".ui.movie.MovieRuleActivity"
+            android:enabled="true"
+            android:exported="true" />
+
+        <service
+            android:name=".logic.network.movie.GetMovieService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <receiver
+            android:name=".logic.network.movie.AlarmReceiver"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".ui.movie.MovieActivity"
+            android:exported="true"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".ui.MainActivity"
+            android:exported="true"
+            android:label=""
+            android:launchMode="singleTask"
+            android:taskAffinity="com.minitiktok.android">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
